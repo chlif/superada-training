@@ -5,7 +5,7 @@
 
       <div class="form-row">
         <div class="col">
-          <input type="text" class="form-control form-control-lg" placeholder="Hakusana...">
+          <input type="text" id="searchInput" class="form-control form-control-lg" placeholder="Hakusana...">
         </div>
       </div>
 
@@ -17,9 +17,14 @@
 <section class="row">
   <div class="col">
 
+    <div id="alert-no-results" class="alert alert-light" role="alert">Tällä haulla ei löytynyt tuloksia.</div>
+
     <ul id="results">
-      
+
     </ul>
 
   </div>
 </section>
+
+
+<script type="text/javascript" src="/javascripts/search.js"></script>

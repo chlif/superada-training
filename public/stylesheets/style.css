@@ -6,3 +6,18 @@ body {
 a {
   color: #00B7FF;
 }
+
+section {
+  border-top: 1px solid #EEE;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+section:first-of-type {
+  border: none;
+  margin-top: 0;
+}
+
+#alert-no-results {
+  display: none;
+}
