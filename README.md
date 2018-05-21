@@ -23,3 +23,24 @@ You only need node, npm and git to use this app.
 ```
 
 Open your browser at [http://localhost:3000](http://localhost:3000)
+
+## Using git
+
+Pulling remote changes
+
+```
+> git pull
+```
+
+Making a commit
+
+```
+> git add .
+> git commit -m "This commit message"
+```
+
+Pushing changes to remote
+
+```
+> git push
+```
