@@ -30,3 +30,6 @@ section:first-of-type {
 #alert-no-results {
   display: none;
 }
+.carousel-item h1 {
+  color: #00B7FF;
+}
