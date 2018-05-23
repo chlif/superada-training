@@ -9,7 +9,6 @@ h1 {
 
 h4 {
   text-align: center;
-  color: #4B0082
 }
 
 a {
@@ -27,12 +26,9 @@ section:first-of-type {
   margin-top: 0;
 }
 
-.carousel-item p {
-  color: #00b7FF;
-}
-
-
-
 #alert-no-results {
   display: none;
+}
+.carousel-item p {
+  color: #00B7FF;
 }
