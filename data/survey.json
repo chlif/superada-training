@@ -1,9 +1,9 @@
 {
   "questions": [
     {
-      "text": "Which subject did you enjoy the most at school:",
-      "options": ["sciences", "humanities", "maths","arts"],
-      "labels": ["Natural Sciences", "Humanities", "Mathematics", "Arts"],
+      "text": "Which subjects did you enjoy the most at school:",
+      "options": ["..", "..."],
+      "labels": ["Natural sciences", "Human sciences", "Mathematics", "or the Arts?"],
       "instruction": "",
       "imageLabels": false,
       "timer": 0,
@@ -13,28 +13,28 @@
     },
 
     {
-      "text": "On a day off, you would most likely be",
-      "options": ["creative", "coding", "outdoors", "tinkering"],
-      "labels": ["adding to your photography portfolio", "working on your pet code", "outdoors playing sports", "tinkering in the garage"],
-      "instruction": "choose up to two",
+      "text": "In your free time you can be found...",
+      "options": ["..", "..."],
+      "labels": ["... dabbling in the arts", "... on your computer", "... outside doing sports", "... tinkering "],
+      "instruction": "",
       "imageLabels": false,
       "timer": 0,
-      "multiselect": 2
+      "multiselect": 1
 
 
     },
 
     {
       "text": "Pick one quickly!",
-      "options": ["square", "triangle", "circle", "squiggle"],
-      "labels": ["...", "...", "...","..."],
-      "instruction": "dskfndj",
+      "options": ["square", "triangle", "cirkle", "squiggle"],
+      "labels": ["..", "..."],
+      "instruction": "",
       "imageLabels": true,
-      "timer": 20,
+      "timer": 10,
       "multiselect": 0
 
 
-    },
+    }
 
 
   ]
