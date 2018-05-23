@@ -1,14 +1,33 @@
 {
   "matrix": [
     {
-      "keywords": ["..", "...."],
+      "keywords": ["maths", "humanities", "arts", "sciences", "circle", "triangle", "square", "squiggle", "tinkering", "outdoors", "creative", "coding"],
       "values": [
-        [],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
       ],
       "roles": [
         {
-          "name": "...",
-          "count": "...."
+          "name": "designer",
+          "count": 1
+        },
+        {
+          "name": "tech",
+          "count": 7
+        },
+        {
+          "name": "project manager",
+          "count": 3
+        },
+        {
+          "name": "advisor",
+          "count": 4
+        },
+        {
+          "name": "data scientist",
+          "count": 2
         }
       ]
 
