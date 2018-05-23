@@ -3,11 +3,11 @@
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        {{#each survey}}
+        {{#each survey.data.questions}}
         <div class="carousel-item active">
-          <p>{{this.text}}</p>
+          <p>{{text}}</p>
         </div>
-        {{...}}
+        {{/each}}
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
