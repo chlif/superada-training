@@ -3,8 +3,11 @@
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        {{#each survey.data.questions}}
         <div class="carousel-item active">
+          <p>Welcome!</p>
+        </div>
+        {{#each survey.data.questions}}
+        <div class="carousel-item">
           <p>{{text}}</p>
         </div>
         {{/each}}
