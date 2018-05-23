@@ -32,3 +32,7 @@ section:first-of-type {
 .carousel-item p {
   color: #00B7FF;
 }
+
+.carousel-item h3 {
+  color: #9ACD32;
+}
