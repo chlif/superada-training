@@ -18,13 +18,15 @@
             <section class="row">
               <h5>{{instruction}}</h5>
             </section>
-            {{#each buttons}}
             <section class="row">
-              <button class="btn btn-success btn-lg btn-block" href="#carouselExampleControls"role="button" data-slide= "next">{{label}}
-                <span class="carousel-control-next"></span>
-              </button>
-            </section>
+            {{#each buttons}}
+              <div class="col-6">
+                <button class="btn btn-success btn-lg btn-block" href="#carouselExampleControls"role="button" data-slide= "next">{{label}}
+                  <span class="carousel-control-next"></span>
+                </button>
+              </div>
             {{/each}}
+            </section>
           </div>
         </div>
         {{/each}}
