@@ -5,8 +5,8 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <h3>Welcome! Answer a few questions to see what IT role you are best suited for. </h3>
-          <button class="btn btn-success btn-lg btn-block" href="#carouselExampleControls"role="button" data-slide= "next" data-button-name="start">Start!
-            <span class="carousel-control-next"></span>
+          <button class="btn btn-success btn-lg btn-block" href="#carouselExampleControls"role="button" data-button-name="start">Start!
+
           </button>
         </div>
         {{#each survey.data.questions}}
@@ -21,9 +21,7 @@
             <section class="row">
             {{#each buttons}}
               <div class="col-6">
-                <button class="btn btn-success btn-lg btn-block" href="#carouselExampleControls"role="button" data-slide= "next" data-button-name={{option}}>{{label}}
-                  <span class="carousel-control-next"></span>
-                </button>
+                <button class="btn btn-success btn-lg btn-block" href="#carouselExampleControls" role="button" data-button-name={{option}}>{{label}}</button>
               </div>
             {{/each}}
             </section>
@@ -35,4 +33,4 @@
 
   </div>
 </section>
-<script src="/javascripts/survey.js" type="text/text/javascript"></script>
+<script src="/javascripts/survey.js" type="text/javascript"></script>

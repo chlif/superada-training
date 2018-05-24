@@ -4,7 +4,7 @@ var questions = require('../data/survey.json');
 var matrix = require('../data/matrix.json');
 var survey = {
     data: questions,
-    matrix: matrix
+    matrix: matrix.matrix
 };
 
 router.get('/', function(req, res, next) {

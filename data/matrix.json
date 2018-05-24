@@ -1,5 +1,5 @@
 {
-  "matrix": [
+  "matrix":
     {
       "keywords": ["maths", "humanities", "arts", "sciences", "circle", "triangle", "square", "squiggle", "tinkering", "outdoors", "creative", "coding"],
       "roles": [
@@ -30,5 +30,4 @@
         }
       ]
     }
-  ]
 }
