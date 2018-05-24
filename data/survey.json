@@ -2,9 +2,25 @@
   "questions": [
     {
       "text": "Which subject did you enjoy the most at school:",
-      "options": ["sciences", "humanities", "maths","arts"],
-      "labels": ["Natural Sciences", "Humanities", "Mathematics", "Arts"],
-      "instruction": "",
+      "buttons":[
+        {
+          "label":"Natural Sciences",
+          "option":"sciences"
+        },
+        {
+          "label":"Humanities",
+          "option":"humanities"
+        },
+        {
+          "label":"Mathematics",
+          "option":"maths"
+        },
+        {
+          "label":"Arts",
+          "option":"arts"
+        }
+      ],
+      "instruction": "choose one",
       "imageLabels": false,
       "timer": 0,
       "multiselect": 0
@@ -14,8 +30,24 @@
 
     {
       "text": "On a day off, you would most likely be",
-      "options": ["creative", "coding", "outdoors", "tinkering"],
-      "labels": ["adding to your photography portfolio", "working on your pet code", "outdoors playing sports", "tinkering in the garage"],
+      "buttons":[
+        {
+          "label":"adding to your photography portfolio",
+          "option":"creative"
+        },
+        {
+          "label":"working on your pet code",
+          "option":"coding"
+        },
+        {
+          "label":"outdoors playing sports",
+          "option":"outdoors"
+        },
+        {
+          "label":"tinkering in the garage",
+          "option":"tinkering"
+        }
+      ],
       "instruction": "choose up to two",
       "imageLabels": false,
       "timer": 0,
@@ -26,14 +58,28 @@
 
     {
       "text": "Pick one quickly!",
-      "options": ["square", "triangle", "circle", "squiggle"],
-      "labels": ["...", "...", "...","..."],
-      "instruction": "dskfndj",
+      "buttons":[
+        {
+          "label":"",
+          "option":"square"
+        },
+        {
+          "label":"",
+          "option":"triangle"
+        },
+        {
+          "label":"",
+          "option":"circle"
+        },
+        {
+          "label":"",
+          "option":"squiggle"
+        }
+      ],
+      "instruction": "go",
       "imageLabels": true,
       "timer": 20,
       "multiselect": 0
-
-
     }
   ]
 }

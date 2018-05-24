@@ -1,14 +1,29 @@
 <section class="row">
   <div class="col">
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval=false>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <h3>Welcome! Answer a few questions to see what IT role you are best suited for. </h3>
+          <button class="btn btn-success btn-lg btn-block" href="#carouselExampleControls"role="button" data-slide= "next">Start!
+            <span class="carousel-control-next"></span>
+          </button>
         </div>
         {{#each survey.data.questions}}
         <div class="carousel-item">
-          <h3>{{text}}</h3>
+          <div class="container">
+            <section class="row">
+              <h3>{{text}}</h3>
+            </section>
+            <section class="row">
+              <h5>{{instruction}}</h5>
+            </section>
+            {{#each labels}}
+            <section class="row">
+                <a class="btn btn-success btn-lg btn-block" role="button" data-slide-to= "1">{{labels}}</a>
+            </section>
+            {{/each}}
+          </div>
         </div>
         {{/each}}
       </div>
