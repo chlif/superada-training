@@ -20,7 +20,7 @@
           "option":"arts"
         }
       ],
-      "instruction": "choose one",
+      "instruction": "Choose one",
       "imageLabels": false,
       "timer": 0,
       "multiselect": 0
@@ -48,7 +48,7 @@
           "option":"tinkering"
         }
       ],
-      "instruction": "choose up to two",
+      "instruction": "Choose up to two",
       "imageLabels": false,
       "timer": 0,
       "multiselect": 2
@@ -76,7 +76,7 @@
           "option":"squiggle"
         }
       ],
-      "instruction": "go",
+      "instruction": "GO!",
       "imageLabels": true,
       "timer": 20,
       "multiselect": 0
