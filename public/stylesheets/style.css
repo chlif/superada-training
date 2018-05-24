@@ -5,10 +5,12 @@ body {
 
 h1 {
   text-align: center;
+  color: #008000 !important;
 }
 
 h4 {
   text-align: center;
+  color: #4B0082;
 }
 
 a {
@@ -31,8 +33,4 @@ section:first-of-type {
 }
 .carousel-item p {
   color: #00B7FF;
-}
-
-.carousel-item h3 {
-  color: #9ACD32;
 }
