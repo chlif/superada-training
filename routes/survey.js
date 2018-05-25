@@ -33,18 +33,19 @@ function findNearestProfile(needle, profiles) {
 
 function scaleAnswers(valuesArr) {
   let profiles = survey.matrix.roles;
-  for(var i = 0; i < profiles; i++) {
-    let scaledProfiles = profiles[i].answers.map((val, i, profiles.answers) => {
-      return val/(profiles.count);
-    });
-  }
-  //let scaledProfiles = profiles.answers.map((val, i, profiles.answers) => {
-  //  return val/(profiles.count);
-  //});
 
-  console.log(scaledProfiles);
-  let userValues = valuesArr.map((val, i, valuesArr) => {
-    return pow((val - scaledAnswers[i]), 2);
+  profiles.forEach((profile, index) => {
+    let scaledProfile = answers.map((val, i, answers) => {
+      return val/(count);
+    });
+    console.log(scaledProfile);
+  });
+
+  profiles.forEach((profile, index) => {
+    let userValues = valuesArr.map((val, i, valuesArr) => {
+      return pow((val - scaledAnswers[i]), 2);
+    });
+    console.log(userValues);
   });
 
   return sqrt($sum(userValues));
