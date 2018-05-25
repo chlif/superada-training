@@ -28,3 +28,7 @@ a {
 #alert-no-results {
   display: none;
 }
+
+#timer {
+  padding-left: 10px;
+}
