@@ -21,9 +21,16 @@
             <section class="row">
             {{#each buttons}}
               <div class="col-6">
-                <button class="btn btn-success btn-lg btn-block" href="#carouselExampleControls" role="button" data-button-name={{option}}>{{label}}</button>
+                <button class="btn btn-success btn-lg btn-block" href="#carouselExampleControls" role="button" data-toggle="button" data-button-name={{option}}>{{label}}</button>
               </div>
             {{/each}}
+            </section>
+            <section class="row">
+              {{#if multiselect}}
+                <div class="col">
+                  <button class="btn btn-light btn-lg btn-block" href="#carouselExampleControls" role="button" data-toggle="button" data-button-name="start">Next</button>
+                </div>
+              {{/if}}
             </section>
           </div>
         </div>
