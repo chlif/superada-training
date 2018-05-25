@@ -29,7 +29,7 @@
       }
     } else if (survey.data.questions[activeQuestion].timer){
       addUserSelection(buttonName);
-
+      showProfile();
     } else {
       addUserSelection(buttonName);
       nextSlide();
@@ -46,6 +46,7 @@
         document.getElementById("timer").innerHTML = left;
       }, function ready(){
         document.getElementById("timer").innerHTML = "Time's up!";
+        showProfile();
       });
     }
 
@@ -61,6 +62,11 @@
     }
     userSelection[index] = 1;
     return 1;
+  }
+
+  function showProfile() {
+    var selectionAsString = userSelection.join("");
+    window.location = "/survey/profile?value=" + selectionAsString;
   }
 
 })(jQuery);
