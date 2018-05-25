@@ -16,6 +16,12 @@
     var buttonName = $(event.target).data("buttonName");
     if(buttonName === "start"){
       nextSlide();
+    } else if (survey.data.questions[activeQuestion].multiselect){
+      addUserSelection(buttonName);
+
+      nextSlide();
+    } else if (survey.data.questions[activeQuestion].timer){
+      
     } else {
       addUserSelection(buttonName);
       nextSlide();
