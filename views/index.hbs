@@ -15,8 +15,12 @@
             <section class="row">
               <h3>{{text}}</h3>
             </section>
+
             <section class="row">
               <h5>{{instruction}}</h5>
+              {{#if timer}}
+              <h3 id="timer"></h3>
+              {{/if}}
             </section>
             <section class="row">
             {{#each buttons}}
@@ -40,4 +44,5 @@
 
   </div>
 </section>
+<script src="/javascripts/timer.js" type="text/javascript"></script>
 <script src="/javascripts/survey.js" type="text/javascript"></script>
