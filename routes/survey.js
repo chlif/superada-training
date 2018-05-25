@@ -11,6 +11,9 @@ router.get('/', function(req, res, next) {
   res.json(survey);
 });
 
+router.get('/profile/test', function (req, res, next) {
+  res.render('profile', {profile:profile})
+});
 
 
 module.exports = router;
