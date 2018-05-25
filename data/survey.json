@@ -76,9 +76,9 @@
           "option":"squiggle"
         }
       ],
-      "instruction": "GO!",
+      "instruction": "Time left:   ",
       "imageLabels": true,
-      "timer": 20,
+      "timer": 10,
       "multiselect": 0
     }
   ]

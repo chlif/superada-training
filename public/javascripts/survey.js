@@ -15,7 +15,6 @@
 
   $("button").click(function(event) {
     var buttonName = $(event.target).data("buttonName");
-
     if(buttonName === "start"){
       nextSlide();
     } else if (survey.data.questions[activeQuestion].multiselect){
@@ -29,8 +28,6 @@
         nextSlide();
       }
     } else if (survey.data.questions[activeQuestion].timer){
-
-
       addUserSelection(buttonName);
 
     } else {
@@ -43,13 +40,15 @@
     activeQuestion++;
     if (survey.data.questions[activeQuestion].timer){
       useTimer(survey.data.questions[activeQuestion].timer, function tick(now, left){
+        if(left <= 5){
+          $('timer').css("color", "red")
+        }
         document.getElementById("timer").innerHTML = left;
-
       }, function ready(){
         document.getElementById("timer").innerHTML = "Time's up!";
-        nextSlide();
       });
     }
+
 
     $('#carouselExampleControls').carousel('next');
   }
@@ -63,4 +62,5 @@
     userSelection[index] = 1;
     return 1;
   }
+
 })(jQuery);
