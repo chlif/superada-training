@@ -17,20 +17,18 @@ a {
   color: #00B7FF;
 }
 
-section {
-  border-top: 1px solid #EEE;
-  margin-top: 50px;
-  padding-top: 20px;
+.carousel-item .row {
+  margin-top: 20px;
 }
 
-section:first-of-type {
-  border: none;
-  margin-top: 0;
+.carousel-item button {
+  margin-bottom: 15px;
 }
 
 #alert-no-results {
   display: none;
 }
-.carousel-item p {
-  color: #00B7FF;
+
+#timer {
+  padding-left: 10px;
 }

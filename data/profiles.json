@@ -1,0 +1,29 @@
+{
+  "profiles": [
+    {
+      "name": "Designer",
+      "description": "",
+      "stories": []
+    },
+    {
+      "name": "Project Manager",
+      "description": "",
+      "stories": []
+    },
+    {
+      "name": "Tech Guru",
+      "description": "",
+      "stories": []
+    },
+    {
+      "name": "Data Scientist",
+      "description": "",
+      "stories": []
+    },
+    {
+      "name": "Advisor",
+      "description": "",
+      "stories": []
+    }
+  ]
+}
