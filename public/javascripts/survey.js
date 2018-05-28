@@ -4,6 +4,7 @@
   var userSelection = [0,0,0,0,0,0,0,0,0,0,0,0];
   var multiselectCounter = 2;
 
+
   $(document).ready(function() {
     $.get('/survey/', function(data){
       survey = data;

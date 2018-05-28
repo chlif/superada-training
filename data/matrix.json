@@ -4,27 +4,27 @@
       "keywords": ["maths", "humanities", "arts", "sciences", "circle", "triangle", "square", "squiggle", "tinkering", "outdoors", "creative", "coding"],
       "roles": [
         {
-          "name": "designer",
-          "count": 1,
-          "answers": [0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0]
+          "name": "Designer",
+          "count": 2,
+          "answers": [1, 0, 1, 1, 2, 0, 0, 1, 0, 2, 1, 0]
         },
         {
-          "name": "tech",
+          "name": "Tech Guru",
           "count": 11,
           "answers": [8, 3, 1, 1, 3, 1, 2, 5, 2, 6, 3, 3]
         },
         {
-          "name": "project manager",
+          "name": "Project Manager",
           "count": 4,
           "answers": [4, 1, 0, 0, 1, 0, 1, 2, 0, 1, 1, 3]
         },
         {
-          "name": "advisor",
+          "name": "Advisor",
           "count": 4,
           "answers": [1, 1, 0, 0, 0, 1, 0, 3, 0, 1, 0, 1]
         },
         {
-          "name": "data scientist",
+          "name": "Data Scientist",
           "count": 2,
           "answers": [0, 1, 1, 0, 0, 0, 0, 2, 0, 1, 1, 0]
         }
