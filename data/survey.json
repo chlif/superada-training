@@ -5,23 +5,26 @@
       "buttons":[
         {
           "label":"Natural Sciences",
-          "option":"sciences"
+          "option":"sciences",
+          "imageLabels": false
         },
         {
           "label":"Humanities",
-          "option":"humanities"
+          "option":"humanities",
+          "imageLabels": false
         },
         {
           "label":"Mathematics",
-          "option":"maths"
+          "option":"maths",
+          "imageLabels": false
         },
         {
           "label":"Arts",
-          "option":"arts"
+          "option":"arts",
+          "imageLabels": false
         }
       ],
       "instruction": "Choose one",
-      "imageLabels": false,
       "timer": 0,
       "multiselect": 0
 
@@ -33,23 +36,26 @@
       "buttons":[
         {
           "label":"adding to your photography portfolio",
-          "option":"creative"
+          "option":"creative",
+          "imageLabels": false
         },
         {
           "label":"working on your pet code",
-          "option":"coding"
+          "option":"coding",
+          "imageLabels": false
         },
         {
           "label":"outdoors playing sports",
-          "option":"outdoors"
+          "option":"outdoors",
+          "imageLabels": false
         },
         {
           "label":"tinkering in the garage",
-          "option":"tinkering"
+          "option":"tinkering",
+          "imageLabels": false
         }
       ],
       "instruction": "Choose up to two",
-      "imageLabels": false,
       "timer": 0,
       "multiselect": 2
 
@@ -60,24 +66,27 @@
       "text": "Pick one quickly!",
       "buttons":[
         {
-          "label":"",
-          "option":"square"
+          "label":"/images/square.png",
+          "option":"square",
+          "imageLabels": true
         },
         {
-          "label":"",
-          "option":"triangle"
+          "label":"/images/triangle.png",
+          "option":"triangle",
+          "imageLabels": true
         },
         {
-          "label":"",
-          "option":"circle"
+          "label":"/images/circle.png",
+          "option":"circle",
+          "imageLabels": true
         },
         {
-          "label":"",
-          "option":"squiggle"
+          "label":"/images/squibble.png",
+          "option":"squiggle",
+          "imageLabels": true
         }
       ],
       "instruction": "Time left:   ",
-      "imageLabels": true,
       "timer": 10,
       "multiselect": 0
     }

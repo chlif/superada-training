@@ -25,7 +25,13 @@
             <section class="row">
             {{#each buttons}}
               <div class="col-6">
-                <button class="btn btn-success btn-lg btn-block" href="#carouselExampleControls" role="button" data-toggle="button" data-button-name={{option}}>{{label}}</button>
+                <button class="btn btn-success btn-lg btn-block" href="#carouselExampleControls" role="button" data-toggle="button" data-button-name={{option}}>
+                  {{#if imageLabels}}
+                    <img src="{{label}}">
+                  {{else}}
+                    {{label}}
+                  {{/if}}
+                </button>
               </div>
             {{/each}}
             </section>

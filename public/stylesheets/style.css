@@ -25,6 +25,15 @@ a {
   margin-bottom: 15px;
 }
 
+button img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+}
+
+
 #alert-no-results {
   display: none;
 }

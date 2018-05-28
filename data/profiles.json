@@ -3,27 +3,32 @@
     {
       "name": "Designer",
       "description": "",
-      "stories": []
+      "stories": [],
+      "quotes": []
     },
     {
       "name": "Project Manager",
       "description": "",
-      "stories": []
+      "stories": [],
+      "quotes": []
     },
     {
       "name": "Tech Guru",
       "description": "",
-      "stories": []
+      "stories": [],
+      "quotes": ["Frontti on kuuminta hottia.", "I think I would make a terrible dentist now."]
     },
     {
       "name": "Data Scientist",
       "description": "",
-      "stories": []
+      "stories": [],
+      "quotes": []
     },
     {
       "name": "Advisor",
       "description": "",
-      "stories": []
+      "stories": [],
+      "quotes": []
     }
   ]
 }
