@@ -51,6 +51,13 @@ button img {
   color: #000000 !important;
 }
 
+.idealised {
+  margin-top: 15px;
+  text-align: center !important;
+  font-style: italic;
+
+}
+
 #alert-no-results {
   display: none;
 }

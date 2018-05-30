@@ -4,7 +4,12 @@
     <div class="boxed">
       <h3>{{profile.name}}</h3>
     </div>
+
+    <div class= "row">
+      <h3 class= "idealised">{{profile.quotes.[0]}}</h3>
+    </div>
     <h5>{{breakline profile.description}}</h5>
+    
     {{#each profile.quotes}}
     <section class=row>
       {{this}}
