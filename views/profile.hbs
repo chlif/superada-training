@@ -1,6 +1,12 @@
 <section class="row">
   <div class="col">
-      <h3>{{profile.name}}</h3>
-      <h5>{{profile.description}}</h5>
+    <h2>You got</h2>
+    <h3>{{profile.name}}</h3>
+    <h5>{{profile.description}}</h5>
+    {{#each profile.quotes}}
+    <section class=row>
+      {{this}}
+    </section>
+    {{/each}}
   </div>
 </section>

@@ -28,7 +28,6 @@ function findProfile(needle) {
   let profileName = chooseProfile(profileDistances);
   for(i = 0; i < profiles.profiles.length; i++) {
     if (profiles.profiles[i].name === profileName) {
-      console.log(profiles.profiles[i]);
       return profiles.profiles[i];
     }
   }
@@ -43,7 +42,6 @@ function chooseProfile(profileDistances) {
       shortestDistanceName = profileDistances[i].name;
     }
   }
-  console.log(shortestDistanceName);
   return shortestDistanceName;
 }
 
@@ -59,7 +57,6 @@ function findNearestProfile(needle) {
     var rProfile = {"name": role.name, "distance": distance};
     return rProfile;
   });
-  console.log(profilesComparedToUser);
   return profilesComparedToUser;
 }
 
@@ -73,8 +70,6 @@ function scaleAnswers() {
     var rRole = {"name": role.name, "answers": scaledAnswers};
     return rRole;
   });
-
-  console.log(scaledProfiles);
   return scaledProfiles;
 }
 
