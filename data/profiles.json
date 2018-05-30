@@ -3,32 +3,32 @@
     {
       "name": "Designer",
       "description": "",
-      "stories": [],
+      "stories": ["I attended a ''science'' high school in Turkey and had always thought I'd be a scientist when I grew up. I liked biology, physics and maths, and was interested in studying genetics. I ended up deciding to study industrial design at university instead. This was before service design and design thinking were a thing, but it was all about starting with user research before going into design and development. This has really echoed into my digital career later on. \nWhile I was doing my bachelor's I decided I didn't want to be an industrial designer after all. The faculty at the time was uninterested in tech and the next century, they had more of a bauhaus mindset. Finding a job as a mobile app designer was the easiest way to get a foothold in the industry. \nI'm currently doing my master's in new media design, which is really an umbrella term for being a tech designer. It covers all sorts of emerging tech, like vanilla new media, game design, and sound design. I call myself a product designer, since I do a bit of everything: ux design, service design, business design, and visual and brand design across the board. I'm happy with my choice to have gone into design, though I've considered whether it might have been useful to have done a degree in computer science. It might make designing tech easier. \nWhat do I do in my free time? I like swimming and skateboarding, I'm a goofy skater. I work on my master's thesis too, from time to time."],
       "quotes": []
     },
     {
       "name": "Project Manager",
       "description": "",
-      "stories": [],
+      "stories": ["I wanted to be a dentist until I was about fifteen years old. We had a sort of test day at school introducing us to computer science and the mathematics that involved. That was how I ended up deciding to study it at Eindhoven University of Technology. I studied a combination of computer science and mathematics at first, then I specialised in computer science. \nNow I work in tech and project management. I'm both a software developer and a software architect, which means I have responsibility for bigger projects. It's about splitting up the eventual solution into parts that are easier to tackle. At the moment I work with a team of seven developers. I wouldn't say I'm in charge, since we work as a team, but I do have the right to veto final decisions. I look at, for instance, where to have what functionality and what programming language to use.\nI play water polo, less here in Helsinki than in Holland, since there are only five teams. I like biking and running too, and sometimes working on some code for fun. It usually depends on how heavy on coding my day has been. I do really enjoy coding, and I think I'd make a terrible dentist now."],
       "quotes": []
     },
     {
       "name": "Tech Guru",
       "description": "",
-      "stories": [],
+      "stories": ["I work as a software tester. My job is to check the quality of the code, as many people get blind to their own work. I have almost 20 years of experience from the IT business. At my previous job at Nokia I worked as a tester, a developer and in product development.\nAt school my favourite subjects were maths and computer science. I got my first computer when I was 8 years old and I have always had one since then. I’ve been interested in technical jobs ever since I was young, which is why I ended up studying electronics manufacturing. My future career was however not all planned out, but rather I have ended up drifting from job to job to get where I am now. \nIn my free time I bike and play golf, but most of the time I spend with my family. Currently I am working on a project with my two daughters who are in primary school. We are planning and making our own game."],
       "quotes": ["''Frontti on kuuminta hottia.''", "''I think I would make a terrible dentist now.''", "''Ei tää oo rakettitiedettä. Paitsi jos koodaa raketteja.''"]
     },
     {
       "name": "Data Scientist",
       "description": "",
-      "stories": [],
+      "stories": ["I'm a data scientist through and through. I do some light back-end software development, working on smaller projects. Data science is a lot more mathematical than developing though; we deal with lots of data. I've also worked on some AI systems for bigger projects.\nI studied mathematics and computer science. I could have graduated from either one, but it was easier to do my Master’s thesis for an IT company, so I ended up choosing computer science.\nI’ve always been good at maths, but when I was in high school I thought I would go to art school. Arts was my favourite subject, but I realised soon that it would be a hard career to make a living in. At one point I also wanted to become a production designer for theatre, but I think I would have become bored in that field quite quickly. Of course you never really know what a job is like until you try it. But I have been very happy with my current job, because it let’s me use both my logical and creative skills on a daily basis. In fact, this whole field is a lot more creative than people might think.\nOutside of work, I spend my time practising martial arts and tending to my garden."],
       "quotes": []
     },
     {
       "name": "Advisor",
       "description": "",
-      "stories": [],
-      "quotes": []
+      "stories": ["My job title is culture advisor. Essentially I am a people-person, and what makes me tick is helping people find their places in a company. I help businesses and their employees deal with digitalisation. Before I came to Futurice, I worked in a consulting firm, where I worked with different companies to improve relationships between their employees. It had nothing to do with the IT business. I noticed that digitalisation had a massive impact on all of the companies. New technologies make whole companies go crazy. People start wondering what their role will be in the future.\nBack in school, my favourite subjects were history, philosophy and psychology. I always loved presentations and speaking in front of people. I wasn’t that interested in logic or maths. During high school, I did an exchange year in Ecuador. It was one of the first times I realised how big of an impact technology can have on people, because email came during that year. At first, all my contact with my family and friends back in Finland was done by sending letters in the mail. After high school, I went on to  study business and then cultural anthropology for my Master’s degree.\nIn my free time, I spend time with my 3-year-old daughter, dance salsa and sometimes do things for work as well."],
+      "quotes": ["''Välillä mä harrastan tätä mun työtä.''"]
     }
   ]
 }
