@@ -2,15 +2,15 @@
   <div class="col">
     <h2>You got</h2>
     <h3>{{profile.name}}</h3>
-    <h5>{{profile.description}}</h5>
-    {{#each profile.quotes}}
+    <h5>{{breakline profile.description}}</h5>
+    {{#each profile.stories}}
     <section class=row>
-      {{this}}
+      {{breakline this}}
     </section>
     {{/each}}
     {{#each profile.stories}}
     <section class=row>
-      {{this}}
+      {{breakline this}}
     </section>
     {{/each}}
   </div>
