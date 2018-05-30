@@ -1,5 +1,6 @@
 var createError = require('http-errors');
 var express = require('express');
+var exphbs = require('express-handlebars');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
@@ -10,7 +11,12 @@ var surveyRouter = require('./routes/survey');
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.engine('hbs', exphbs({
+  defaultLayout: 'layout',
+  extname: '.hbs',
+  helpers: require('./views/helpers.js').helpers,
+  layoutsDir: './views'
+}));
 app.set('view engine', 'hbs');
 
 app.use(logger('dev'));
