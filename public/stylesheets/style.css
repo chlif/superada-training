@@ -14,7 +14,6 @@ h3 {
 
 h4 {
   text-align: center;
-  color: #4B0082;
 }
 
 a {
@@ -37,6 +36,20 @@ button img {
     width: 100px;
 }
 
+.boxed {
+  border: 3px solid green;
+  width: 200px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profileHeader {
+  margin-top: 50px;
+  text-align: center;
+  color: #000000 !important;
+}
 
 #alert-no-results {
   display: none;

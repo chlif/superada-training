@@ -1,11 +1,13 @@
 <section class="row">
   <div class="col">
-    <h2>You got</h2>
-    <h3>{{profile.name}}</h3>
+    <h3 class="profileHeader">You got</h3>
+    <div class="boxed">
+      <h3>{{profile.name}}</h3>
+    </div>
     <h5>{{breakline profile.description}}</h5>
     {{#each profile.quotes}}
     <section class=row>
-      {{breakline this}}
+      {{this}}
     </section>
     {{/each}}
     {{#each profile.stories}}
