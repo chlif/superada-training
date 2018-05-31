@@ -1,33 +1,25 @@
 <section class="row">
   <div class="col">
-    <div class= "boxedIn">
-      <h3 class="profileHeader">You got</h3>
-      <div class="boxed">
-        <h3>{{profile.name}}</h3>
-      </div>
+
+    <h3 class="profileHeader">You got</h3>
+    <div class="boxed">
+      <h3>{{profile.name}}</h3>
     </div>
 
     <div class= "row">
-      <h3 class= "zero">{{profile.quotes.[1]}}</h3>
+      <h3 class= "zero">{{profile.quotes.[0]}}</h3>
     </div>
     <div class "row">
-      <h3 class= "first">{{profile.quotes.[0]}}</h3>
+      <h3 class= "first">{{profile.quotes.[1]}}</h3>
       <h3 class= "second">{{profile.quotes.[2]}}</h3>
     </div>
 
-
+    <h5 class="subheader">Here's what the story of a {{profile.name}} might look like:</h5>
     <h5>{{breakline profile.description}}</h5>
 
 
-    {{#each profile.quotes}}
-    <section class=row>
-      {{this}}
+    <section class=row id="firstStory">
+      {{breakline profile.stories.[0]}}
     </section>
-    {{/each}}
-    {{#each profile.stories}}
-    <section class=row>
-      {{breakline this}}
-    </section>
-    {{/each}}
   </div>
 </section>
