@@ -20,6 +20,10 @@ a {
   color: #00B7FF;
 }
 
+header {
+  margin-bottom: 50px;
+}
+
 .carousel-item .row {
   margin-top: 20px;
 }
@@ -37,17 +41,20 @@ button img {
 }
 
 .boxed {
-  border: 3px solid green;
-  width: 200px;
   margin-bottom: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
-
+.boxed h3 {
+  padding-top: 10px;
+}
+.boxed h3 span {
+  border: 3px solid green;
+  padding: 10px;
+}
 
 .profileHeader {
-  margin-top: 50px;
   text-align: center;
   color: #000000 !important;
 }
