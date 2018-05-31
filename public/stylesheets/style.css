@@ -28,6 +28,10 @@ header {
   margin-bottom: 50px;
 }
 
+hr {
+  color: #000000;
+}
+
 .carousel-item .row {
   margin-top: 20px;
 }
