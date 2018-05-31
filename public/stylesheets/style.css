@@ -53,7 +53,16 @@ button img {
 }
 
 .subheader {
+  margin-top: 25px;
+  color: #000000 !important;
+  font-weight: bold;
+}
+
+.description {
   margin-top: 50px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  text-align: left;
   color: #000000 !important;
 }
 
@@ -61,17 +70,20 @@ button img {
   margin-top: 30px;
   text-align: left;
   font-style: italic;
+  color: #008000;
 }
 .first {
   margin-top: 10px;
   text-align: center;
   font-style: italic;
+  color: #008000;
 }
 
 .second {
   margin-top: 15px;
   text-align: right;
   font-style: italic;
+  color: #008000;
 }
 
 #firstStory {
