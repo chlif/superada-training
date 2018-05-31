@@ -6,20 +6,23 @@
       <h3><span>{{profile.name}}</span></h3>
     </div>
 
+
+    <h5 class="description">{{breakline profile.description}}</h5>
+
     <div class= "row">
-      <h3 class= "zero">{{profile.quotes.[0]}}</h3>
+      <h3 class= "zero">{{profile.quotes.[1]}}</h3>
     </div>
     <div class "row">
-      <h3 class= "first">{{profile.quotes.[1]}}</h3>
+      <h3 class= "first">{{profile.quotes.[0]}}</h3>
       <h3 class= "second">{{profile.quotes.[2]}}</h3>
     </div>
 
-    <h5 class="subheader">Here's what the story of a {{profile.name}} might look like:</h5>
-    <h5>{{breakline profile.description}}</h5>
 
 
-    <section class=row id="firstStory">
+
+    <div class=row id="firstStory">
+      <h6 class="subheader">Here's what the story of a {{profile.name}} might look like:</h5>
       {{breakline profile.stories.[0]}}
-    </section>
+    </div>
   </div>
 </section>
