@@ -43,14 +43,7 @@ button img {
   margin-left: auto;
   margin-right: auto;
 }
-.boxedIn {
-  border: 3px solid black;
-  margin-top: 40px;
-  margin-bottom: 25px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .profileHeader {
   margin-top: 50px;
@@ -58,8 +51,13 @@ button img {
   color: #000000 !important;
 }
 
+.subheader {
+  margin-top: 50px;
+  color: #000000 !important;
+}
+
 .zero {
-  margin-top: 15px;
+  margin-top: 30px;
   text-align: left;
   font-style: italic;
 }
@@ -73,6 +71,11 @@ button img {
   margin-top: 15px;
   text-align: right;
   font-style: italic;
+}
+
+#firstStory {
+  margin-top: 20px;
+
 }
 
 #alert-no-results {
