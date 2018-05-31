@@ -20,6 +20,10 @@ a {
   color: #00B7FF;
 }
 
+header {
+  margin-bottom: 50px;
+}
+
 .carousel-item .row {
   margin-top: 20px;
 }
@@ -51,7 +55,6 @@ button img {
 }
 
 .profileHeader {
-  margin-top: 50px;
   text-align: center;
   color: #000000 !important;
 }
