@@ -37,13 +37,18 @@ button img {
 }
 
 .boxed {
-  border: 3px solid green;
   margin-bottom: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
-
+.boxed h3 {
+  padding-top: 10px;
+}
+.boxed h3 span {
+  border: 3px solid green;
+  padding: 10px;
+}
 
 .profileHeader {
   margin-top: 50px;
