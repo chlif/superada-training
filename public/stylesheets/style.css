@@ -3,6 +3,10 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+header {
+  font-family: 'Poppins', sans-serif;
+}
+
 h1 {
   text-align: center;
   color: #008000 !important;
@@ -62,6 +66,7 @@ button img {
 .subheader {
   margin-top: 25px;
   color: #000000 !important;
+  font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
 
@@ -69,6 +74,7 @@ button img {
   margin-top: 50px;
   margin-bottom: 30px;
   line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
   text-align: left;
   color: #000000 !important;
 }
@@ -95,6 +101,7 @@ button img {
 
 #firstStory {
   margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
 
 }
 
